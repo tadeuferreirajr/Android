@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.tadeu_000.linechart.MainActivity">
+
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView"
+    android:layout_toRightOf="@+id/textView"
+    android:layout_toEndOf="@+id/textView"
+    android:layout_marginLeft="14dp"
+    android:layout_marginStart="14dp"
+    android:id="@+id/textViewBovespapp" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/textViewBovespa" />
+
+<TextView
+    android:text="Dólar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:id="@+id/textView4"
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/textView4"
+    android:layout_alignLeft="@+id/textViewBovespapp"
+    android:layout_alignStart="@+id/textViewBovespapp"
+    android:id="@+id/textViewDolarpp" />
+
+<TextView
+    android:text="Salário Mínimo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="21dp"
+    android:id="@+id/textView3"
+    android:layout_below="@+id/textView4"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textViewSalarioMin"
+    android:layout_alignBaseline="@+id/textView3"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_toRightOf="@+id/textView3"
+    android:layout_toEndOf="@+id/textView3"
+    android:layout_marginLeft="12dp"
+    android:layout_marginStart="12dp" />
+
+<TextView
+    android:text="CDI"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:id="@+id/textView6"
+    android:layout_below="@+id/textView3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textViewCDI"
+    android:layout_alignBaseline="@+id/textView6"
+    android:layout_alignBottom="@+id/textView6"
+    android:layout_toLeftOf="@+id/textViewSalarioMin"
+    android:layout_toStartOf="@+id/textViewSalarioMin" />
+
+<TextView
+    android:text="Selic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView8"
+    android:layout_below="@+id/textView6"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="12dp" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textViewSELIC"
+    android:layout_alignBaseline="@+id/textView8"
+    android:layout_alignBottom="@+id/textView8"
+    android:layout_alignLeft="@+id/textViewCDI"
+    android:layout_alignStart="@+id/textViewCDI" />
+
+<TextView
+    android:text="Bovespa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

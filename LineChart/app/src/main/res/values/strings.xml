@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dados Econômicos</string>
+    <string name="button1">Indicadores Gerais</string>
+    <string name="button2">Indicadores Brasil</string>
+    <string name="buttonPIB">PIB</string>
+    <string name="buttonVarPIB">%PIB</string>
+</resources>
